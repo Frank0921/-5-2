@@ -1,26 +1,13 @@
-sum = 0 
-for x in range(1, 101): 
-    if x % 2 != 0:
-        sum = sum + x
-
-print(sum) 
-
-
-
-
-sum = 0 
-for x in range(1, 101): 
-    if x % 2 == 0:
-        continue
-    sum = sum + x
-
-print(sum) 
+課堂練習
+有一直三角形, 若已知其較短兩邊長為10cm, 8cm, 則另一邊為幾公分? (請使用 math.pow(x,y) 與 math.sqrt(x))
+import math
+a = 10
+b = 8
+c = math.sqrt(math.pow(a, 2) + math.pow(b, 2))
+​
+print(f"另一邊的長度為約 {c:.2f} 公分")
+​
+另一邊的長度為約 12.81 公分
 
 
 
-
-sum = 0 
-for x in range(1, 101, 2):
-     sum = sum + x
-        
-print(sum) 
